@@ -46,7 +46,7 @@ body {
 
 /* 첫 번째 섹션: mine.jpg 배경 이미지 */
 .section-one {
-    background-image: url('mine.jpg'); /* mine.jpg 파일 경로 */
+    background-image: url('/images/mine.jpg'); /* mine.jpg 파일 경로 */
     background-size: cover; /* 배경 이미지가 섹션을 꽉 채우도록 */
     background-position: center; /* 배경 이미지 중앙 정렬 */
 }
