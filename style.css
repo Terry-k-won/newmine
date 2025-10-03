@@ -56,3 +56,11 @@ footer {
     font-size: 0.8em;
     color: #7f8c8d;
 }
+
+/* 새로 추가: 링크의 기본 스타일 제거 */
+.image-link {
+    text-decoration: none; /* 밑줄 제거 */
+    color: inherit; /* 텍스트 색상 상속 */
+    /* A 태그를 블록 요소로 만들어 클릭 영역을 image-box 전체로 만듭니다. */
+    display: block; 
+}
