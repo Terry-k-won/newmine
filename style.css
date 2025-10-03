@@ -1,0 +1,57 @@
+/* 기본 설정: 마진/패딩 제거 및 전체 높이 사용 */
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    /* 모바일에서 풀스크린 높이 문제 방지 */
+    /* 100vh 대신 100%를 사용할 수도 있지만, 
+       스크롤 스냅을 body/html에 직접 적용하지 않는 경우 .scroll-container에 적용 */
+    height: 100vh;
+    overflow: hidden; /* body의 기본 스크롤 제거 */
+}
+
+/* 스크롤을 담당할 메인 컨테이너 */
+.scroll-container {
+    width: 100%;
+    height: 100vh; /* 뷰포트 높이와 동일하게 설정 */
+    overflow-y: scroll; /* 세로 스크롤 허용 */
+    
+    /* === 스크롤 스냅 핵심 속성 === */
+    /* y축 방향으로 스크롤 스냅을 '강제(mandatory)'로 적용 */
+    scroll-snap-type: y mandatory; 
+    
+    /* 스크롤 동작을 좀 더 부드럽게 (선택 사항) */
+    scroll-behavior: smooth; 
+}
+
+/* 각 섹션(스냅 대상 요소) 스타일 */
+.section {
+    width: 100%;
+    height: 100vh; /* 각 섹션이 뷰포트 높이만큼 차지하도록 설정 */
+    display: flex; /* 콘텐츠를 중앙에 배치하기 위해 사용 (선택 사항) */
+    justify-content: center;
+    align-items: center;
+    color: white; /* 텍스트 색상 */
+    font-size: 2em;
+    
+    /* === 스크롤 스냅 핵심 속성 === */
+    /* 각 섹션이 컨테이너의 '시작(start)' 지점에 스냅되도록 지정 */
+    scroll-snap-align: start;
+    /* 스크롤 도중 다음 스냅 지점을 건너뛰지 않고 반드시 멈추도록 함 (선택 사항) */
+    scroll-snap-stop: always; 
+}
+
+/* 첫 번째 섹션: mine.jpg 배경 이미지 */
+.section-one {
+    background-image: url('mine.jpg'); /* mine.jpg 파일 경로 */
+    background-size: cover; /* 배경 이미지가 섹션을 꽉 채우도록 */
+    background-position: center; /* 배경 이미지 중앙 정렬 */
+}
+
+/* 두 번째 섹션: 검은색 배경 */
+.section-two {
+    background-color: #000000; /* 검은색 배경 (원하는 색상으로 변경 가능) */
+}
