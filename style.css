@@ -12,7 +12,6 @@
     position: relative;
     width: 90vw;
     height: auto;
-    /* 중앙 배치 스타일은 body로 이동했으나, 컨테이너 내 중앙 배치는 유지 */
     display: flex; 
     justify-content: center;
     align-items: center;
@@ -28,11 +27,13 @@
     transition: transform 0.3s ease-in-out; 
     cursor: pointer; 
     outline: none;
-    
+    filter:brightness(50%);
+    transition : filter 0.3s ease-in-out, transform 0.3s ease-in-out;
 }
 
 .centered-image.hover-active {
     transform: scale(1.1);
+    filter: brightness(100%);
 }
 
 /* 이미지 위에 올릴 텍스트 스타일 */
