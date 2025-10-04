@@ -53,6 +53,7 @@
     background-color: rgba(0, 0, 0, 0.5);
     /* 폰트 적용: yangjin 폰트를 사용하고, 로드가 실패할 경우 sans-serif를 사용 */
     font-family: 'yangjin', sans-serif;
+    z-index: 5; 
 }
 
 .image-text h2 {
