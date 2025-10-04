@@ -1,3 +1,53 @@
-<button>Hello</button>
-<p>만나서 반가와요</p>
-<a href="https://www.youtube.com/watch?v=HJYg94a0nek&list=RDQWx1nPwedQ0&index=7" target="_blank">Link to Youtube</a>
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> 권태희 </title>
+    <style>
+        body {
+            /* 뷰포트 높이(vh)를 사용하여 전체 화면을 채우고 스크롤바 방지 */
+            height: 100vh;
+            margin: 0;
+            padding: 0;
+            /* 검은색 배경 설정 */
+            background-color: #37353E;
+            /* Flexbox를 사용하여 내용을 중앙에 배치 준비 */
+            display: flex;
+            /* 가로 중앙 정렬 */
+            justify-content: center;
+            /* 세로 중앙 정렬 */
+            align-items: center;
+            /* 사진이 너무 클 경우 스크롤이 생기지 않도록 숨김 */
+            overflow: hidden;
+        }
+
+        /*
+         * 사진 스타일 설정
+         */
+        .center-image {
+            /* 사진이 화면을 가득 채우지 않도록 최대 크기 지정 */
+            max-width: 90vw; /* 뷰포트 너비의 90% */
+            max-height: 90vh; /* 뷰포트 높이의 90% */
+            /* 사진의 가로세로 비율을 유지하면서 주어진 최대 크기에 맞게 조정 */
+            width: auto;
+            height: auto;
+            /* 누끼 딴 사진이므로 그림자 효과를 주면 더 돋보일 수 있습니다. (선택 사항) */
+            box-shadow: 0 4px 12px rgba(255, 255, 255, 0.2);
+            border-radius: 8px; /* 모서리 둥글게 (선택 사항) */
+        }
+
+        @media (max-width: 768px) {
+            body {
+                /* 작은 화면에서 높이 문제를 보정하기 위한 방법 */
+                min-height: -webkit-fill-available;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <img src="mine.jpg" alt="내 사진" class="center-image">
+
+</body>
+</html>
