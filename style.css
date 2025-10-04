@@ -61,38 +61,3 @@
     font-weight: bold;
     font-size: 2.5em;
 }
-
-/* ---------------------------------------------------- */
-/* 🌟 하단 텍스트 (image-with-text) 스타일 추가/수정 🌟 */
-/* ---------------------------------------------------- */
-
-.image-with-text {
-    position: absolute; /* 부모 컨테이너 기준 배치 */
-    top: 70%;          /* 사진의 하단 70% 위치 */
-    left: 50%;
-    /* translate(-50%, -50%)로 중앙 정렬 */
-    transform: translate(-50%, -50%); 
-    
-    color: white;
-    text-align: center;
-    font-family: 'yangjin', sans-serif; 
-    z-index: 10;
-    
-    /* 🌟 초기 상태: 숨김 처리 및 애니메이션 준비 🌟 */
-    opacity: 0;
-    visibility: hidden; /* 영역을 아예 차지하지 않도록 숨김 */
-    transition: opacity 0.3s ease-in-out, visibility 0.3s;
-}
-
-/* 텍스트 내용 h1 스타일 */
-.image-with-text h1 {
-    margin: 0;
-    font-size: 2em;
-}
-
-
-/* 🌟 클래스(.hover-active)가 추가되면 나타나게 함 🌟 */
-.image-with-text.hover-active {
-    opacity: 1;             /* 투명도를 1로 만들어 보이게 함 */
-    visibility: visible;    /* 다시 보이게 함 */
-}
