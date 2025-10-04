@@ -28,8 +28,19 @@
             </h2>
         </div>
         
-        <img src="images/taehee_picture.png" alt="태희님의 사진" class="centered-image">
+        <img src="images/taehee_picture.png" alt="태희님의 사진" class="centered-image" id="toggleImage">
     </div>
     
+    <script>
+        // 1. 이미지 요소(ID: toggleImage)를 가져옵니다.
+        const imageElement = document.getElementById('toggleImage');
+
+        // 2. 이미지를 클릭했을 때 실행될 함수를 정의합니다.
+        imageElement.addEventListener('click', function() {
+            // 'hover-active' 클래스가 있으면 제거하고, 없으면 추가합니다.
+            // 이 클래스가 추가될 때 CSS에서 확대 효과를 적용합니다.
+            imageElement.classList.toggle('hover-active');
+        });
+    </script>
 </body>
 </html>
