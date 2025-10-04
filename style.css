@@ -24,7 +24,6 @@
     display: block;
     margin: 0 auto; 
     cursor: pointer; 
-    pointer-events: none;
     filter:brightness(10%);
     transition : filter 0.3s ease-in-out, transform 0.3s ease-in-out;
     position: relative;
@@ -34,7 +33,6 @@
 .centered-image.hover-active {
     transform: scale(1.1);
     filter: brightness(100%);
-    pointer-events: none;
     z-index: 10;
 }
 
