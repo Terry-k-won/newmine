@@ -9,7 +9,7 @@
 /* 이미지 컨테이너 (부모 요소) */
 .image-container {
     position: relative;
-    width: 90vw;
+    width: 100vw;
     height: auto;
     display: flex; 
     justify-content: center;
@@ -20,10 +20,10 @@
 
 /* 이미지 스타일 */
 .centered-image {
-    width: 100%;
+    width: 90%;
     height: auto;
     display: block;
-    transition: transform 0.3s ease-in-out; 
+    margin: 0 auto; 
     cursor: pointer; 
     outline: none;
     filter:brightness(10%);
@@ -41,9 +41,6 @@
 /* 이미지 위에 올릴 텍스트 스타일 */
 .image-text {
     position: relative;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
     color: white;
     text-align: left;
     padding: 10px 20px;
