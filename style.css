@@ -5,6 +5,15 @@
     font-style: normal;
 }
 
+.first_page {
+    height: 100vh;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #F5F5F0;
+}
+
 /* 이미지 컨테이너 (부모 요소) */
 .image-container {
     position: relative;
