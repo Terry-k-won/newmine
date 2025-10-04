@@ -1,0 +1,61 @@
+/* 폰트 정의: CDN 사용 */
+@font-face {
+    font-family: 'yangjin';
+    /* 따옴표는 ‘ ’ 대신 ' ' 를 사용하는 것이 좋습니다. */
+    src: url('https://cdn.jsdelivr.net/gh/supernovice-lab/font@0.9/yangjin.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* 이미지 컨테이너 (부모 요소) */
+.image-container {
+    position: relative;
+    width: 90vw;
+    height: auto;
+    /* 중앙 배치 스타일은 body로 이동했으나, 컨테이너 내 중앙 배치는 유지 */
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+
+/* 이미지 스타일 */
+.centered-image {
+    width: 100%;
+    height: auto;
+    display: block;
+    transition: transform 0.3s ease-in-out;
+}
+
+.centered-image:hover {
+    transform: scale(1.1);
+}
+
+/* 이미지 위에 올릴 텍스트 스타일 */
+.image-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 10px 20px;
+    border-radius: 5px;
+    white-space: nowrap; /* 줄바꿈 방지 속성은 해제해도 무방하나, 텍스트가 짧아 유지 */
+    
+    /* 폰트 적용: yangjin 폰트를 사용하고, 로드가 실패할 경우 sans-serif를 사용 */
+    font-family: 'yangjin', sans-serif;
+}
+
+/* h2 스타일 조정: 기존의 p와 h2 스타일을 유지 */
+.image-text p {
+    margin: 0;
+    font-size: 1.2em;
+}
+
+.image-text h2 {
+    /* 텍스트 내용 전체가 h2로 들어갔으므로 h2의 마진을 제거 */
+    margin: 0; 
+    font-size: 1.8em;
+}

@@ -3,41 +3,30 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>이미지 중앙 배치 및 호버 효과</title>
+    <title>Terry Kwon</title>
+    <link rel="stylesheet" href="style.css"> 
     <style>
-        /* Body 스타일: 전체 화면을 사용하고 내용물을 중앙에 배치 */
+        /* 화면 중앙 배치를 위한 기본 body 스타일 */
         body {
-            /* 뷰포트 높이의 100%를 사용하여 전체 화면 높이를 확보 */
             height: 100vh;
-            /* 여백 제거 */
             margin: 0;
-            /* Flexbox를 사용하여 내용을 중앙에 배치 */
             display: flex;
-            /* 가로 중앙 정렬 */
             justify-content: center;
-            /* 세로 중앙 정렬 */
             align-items: center;
-            /* 깔끔한 배경색 (선택 사항) */
             background-color: #f0f0f0;
-        }
-
-        /* 이미지 스타일 */
-        .centered-image {
-            width: 30vh;
-            transition: transform 0.5s ease-in-out;
-            max-width: 90%;
-            height: auto;
-            cursor: pointer;
-        }
-
-        /* 호버 효과: 커서를 갖다 대었을 때 이미지를 약간 확대 */
-        .centered-image:hover {
-            /* 10% 확대 (1.1배) */
-            transform: scale(1.1);
         }
     </style>
 </head>
 <body>
-    <img src="images/taehee_picture.png" alt="태희님의 사진" class="centered-image">
+    
+    <div class="image-container">
+        
+        <div class="image-text">
+            <h2>틀이 있다면<br>딱하고 깨버리는 사람</h2>
+        </div>
+        
+        <img src="images/taehee_picture.png" alt="태희님의 사진" class="centered-image">
+    </div>
+    
 </body>
 </html>
