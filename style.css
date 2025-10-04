@@ -27,7 +27,7 @@
     transition: transform 0.3s ease-in-out; 
     cursor: pointer; 
     outline: none;
-    filter:brightness(50%);
+    filter:brightness(20%);
     transition : filter 0.3s ease-in-out, transform 0.3s ease-in-out;
 }
 
