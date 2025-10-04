@@ -41,7 +41,7 @@
 
 /* 이미지 위에 올릴 텍스트 스타일 */
 .image-text {
-    position: absolute;
+    position: relative;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
