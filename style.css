@@ -61,3 +61,14 @@
     font-weight: bold;
     font-size: 2.5em;
 }
+
+.image-with-text {
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: #9c5012;
+    font-weight: bold;
+    font-size: 1.5em;
+}
