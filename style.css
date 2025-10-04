@@ -27,13 +27,16 @@
     transition: transform 0.3s ease-in-out; 
     cursor: pointer; 
     outline: none;
-    filter:brightness(20%);
+    filter:brightness(10%);
     transition : filter 0.3s ease-in-out, transform 0.3s ease-in-out;
+    position: relative;
+    z-index: 1;
 }
 
 .centered-image.hover-active {
     transform: scale(1.1);
     filter: brightness(100%);
+    z-index: 10;
 }
 
 /* 이미지 위에 올릴 텍스트 스타일 */
