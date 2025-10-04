@@ -17,7 +17,7 @@
     justify-content: center;
     align-items: center;
     margin: 0 auto;
-    -webkit-tap-highlight-color: transparent; 
+ 
 }
 
 /* 이미지 스타일 */
@@ -28,18 +28,7 @@
     transition: transform 0.3s ease-in-out; 
     cursor: pointer; 
     outline: none;
-    -webkit-touch-callout: none;
-    /* 1. WebKit/Blink 기반 브라우저 (Chrome, Safari, Edge 등) */
-    -webkit-user-select: none; 
     
-    /* 2. Mozilla 기반 브라우저 (Firefox) */
-    -moz-user-select: none;
-    
-    /* 3. Microsoft 브라우저 (구형 IE/Edge) */
-    -ms-user-select: none; 
-    
-    /* 4. 🌟 표준 속성: 항상 마지막에 정의하여 우선순위를 줍니다. 🌟 */
-    user-select: none;
 }
 
 .centered-image.hover-active {
