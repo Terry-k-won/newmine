@@ -14,43 +14,41 @@
 
 .first_page {
     margin: 0;
-    justify-content: center;
-    align-items: center;
+    height: 100vh;
+    width: 100vw;
     background-color: #F5F5F0;
 }
 
-/* 이미지 컨테이너 (부모 요소) */
 .imagetext-container {
-    position: relative;
-    width: 100vw;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
     height: auto;
-    display: flex; 
-    justify-content: center;
-    align-items: center;
-    margin: 0 auto;
-    -webkit-tap-highlite-color:transparent;
+    width: 100vw;
+    display: block;
 }
 
 /* 이미지 스타일 */
-.centered-image {
+.taehee-image {
     width: 90%;
-    height: auto;
-    display: block;
-    margin: 0 auto; 
-    cursor: pointer; 
+    height: auto; 
     filter:brightness(10%);
     transition : filter 0.3s ease-in-out, transform 0.3s ease-in-out;
-    position: relative;
     outline: none;
     z-index: 4;
     -webkit-tap-highlite-color:transparent;
 }
 
-.centered-image.hover-active {
+.taehee-image.hover-active {
     transform: scale(1.1);
     filter: brightness(100%);
     z-index: 10;
     -webkit-tap-highlite-color:transparent;
+}
+
+.intro-name {
+    font-family: 'Shilla';
 }
 
 /* 이미지 위에 올릴 텍스트 스타일 */
@@ -61,11 +59,11 @@
     transform: translate(-50%, -50%);
     color: white;
     text-align: left;
+    font-size: 16px;
     padding: 10px 20px;
     border-radius: 5px;
     white-space: nowrap; /* 줄바꿈 방지 속성은 해제해도 무방하나, 텍스트가 짧아 유지 */
     background-color: rgba(0, 0, 0, 0.5);
-    /* 폰트 적용: yangjin 폰트를 사용하고, 로드가 실패할 경우 sans-serif를 사용 */
     font-family: 'yangjin', sans-serif;
     z-index: 5; 
 }
@@ -76,7 +74,7 @@
 }
 
 .highlight-text {
-    color: #FFD700;
+    color: #f77700;
     font-weight: bold;
     font-size: 2.5em;
 }

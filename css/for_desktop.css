@@ -11,7 +11,9 @@
 
     /* 2. 이미지 스타일 - 더 작게 표시 */
     .centered-image {
-        width: 50%; /* 데스크톱에서는 50%만 사용 */
+        width: 50%;
+        /* 데스크톱에서는 50%만 사용 */ 
+        cursor: pointer;
         /* top, left, transform은 absolute 자식의 기준점이므로 변경할 필요 없습니다. */
     }
 
