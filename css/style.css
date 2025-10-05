@@ -10,3 +10,9 @@
     height: 100vh; /* 각 페이지가 뷰포트 높이만큼 차지하도록 설정 */
     scroll-snap-align: start; /* 페이지 상단이 컨테이너 상단에 맞춰 스냅되도록 설정 */
 }
+
+body {
+    overflow-y: hidden; /* 브라우저 자체의 수직 스크롤을 비활성화 */
+    margin: 0; /* body의 기본 여백 제거 */
+    padding: 0; /* body의 기본 패딩 제거 */
+}
