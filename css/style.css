@@ -1,12 +1,7 @@
-body, html{
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-}
 
 /* 부모 스크롤 스냅 컨테이너 */
 .scroll-container {
-    height:100vh;
+    height:100%;
     width:100%;
     overflow: auto;
     scroll-snap-type: y mandatory;
@@ -14,7 +9,7 @@ body, html{
 
 /* 자식 스크롤 스냅 영역 */
 .scroll-area {
-    height:100vh;
+    height:100%;
     width:100%;
     scroll-snap-align: start;
 }
