@@ -1,4 +1,5 @@
 .second_page {
+    position: relative;
     margin: 0;
     width: 100vw;
     background-color: #456882;
