@@ -43,7 +43,7 @@
 }
 
 .taehee-image.hover-active {
-    transform: scale(1.1);
+    width:88%;
     filter: brightness(100%);
     z-index: 10;
 }
