@@ -1,3 +1,9 @@
+html, body {
+    /* 브라우저 자체의 기본 마진/패딩 제거 */
+    margin: 0;
+    padding: 0;
+}
+
 .snap-container {
     height: 100vh; /* 뷰포트 높이만큼 설정 */
     overflow-y: scroll; /* 세로 스크롤 허용 */
