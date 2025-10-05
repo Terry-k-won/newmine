@@ -2,7 +2,7 @@
 .scroll-container {
     height:100vh;
     width:100%;
-    overflow: auto;
+    overflow-y: auto;
     scroll-snap-type: y mandatory;
 }
 
