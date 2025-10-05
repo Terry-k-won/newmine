@@ -9,13 +9,14 @@
 <body>
     <div class="snap-container">
         <section class="page first_page">
-            <div class="image-container">
+            <div class="imagetext-container">
                 <div class="image-text">
                     <h2>
                         <span class="highlight-text large-size">틀</span>이 있다면<br>
                         <span class="highlight-text">딱</span>하고 깨버리는 <span class="highlight-text">남</span>자
                     </h2>
                 </div>
+                <div class="image-name" id="toggleName">틀딱남<br>권태희</div>
                 <img src="images/taehee_picture_1.png" alt="태희님의 사진" class="centered-image" id="toggleImage">
             </div>
         </section>
@@ -27,12 +28,14 @@
     <script>
         // 1. 이미지 요소(ID: toggleImage)를 가져옵니다.
         const imageElement = document.getElementById('toggleImage');
+        const nameElement = document.getElementById('toggleName');
 
         // 2. 이미지를 클릭했을 때 실행될 함수를 정의합니다.
         imageElement.addEventListener('click', function() {
             // 'hover-active' 클래스가 있으면 제거하고, 없으면 추가합니다.
             // 이 클래스가 추가될 때 CSS에서 확대 효과를 적용합니다.
             imageElement.classList.toggle('hover-active');
+            nameElement.classList.toggle('hover-active');
         });
     </script>
 </body>

@@ -5,6 +5,13 @@
     font-style: normal;
 }
 
+@font-face {
+    font-family: 'Shilla';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2206-02@1.0/Shilla_CultureM-Medium.woff2') format('woff2');
+    font-weight: 500;
+    font-display: swap;
+}
+
 .snap-container {
     height: 100vh; /* 뷰포트 높이만큼 설정 */
     overflow-y: scroll; /* 세로 스크롤 허용 */
@@ -31,7 +38,7 @@
 }
 
 /* 이미지 컨테이너 (부모 요소) */
-.image-container {
+.imagetext-container {
     position: relative;
     width: 100vw;
     height: auto;
@@ -84,6 +91,24 @@
 .image-text h2 {
     margin: 0;
     font-size: 1.2em;
+}
+
+.image-name {
+    position: absolute;
+    top: 0; 
+    left: 50%;
+    transform: translateX(-50%); /* X축으로만 중앙 정렬 */
+    
+    font-family: 'Shilla', sans-serif;
+    color: white; /* 텍스트 색상 설정 */
+    text-align: center; /* 텍스트 중앙 정렬 */
+    
+    opacity: 0; /* 기본적으로 투명하게(숨김) 설정 */
+    transition: opacity 0.5s ease-in-out; /* 부드러운 전환 효과 */
+}
+
+.image-name.hover-active {
+    opacity: 1;
 }
 
 .highlight-text {
