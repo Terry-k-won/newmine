@@ -30,6 +30,7 @@
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    z-index:10;
 }
 
 /* 이미지 스타일 */
@@ -39,18 +40,15 @@
     filter:brightness(10%);
     transition : filter 0.3s ease-in-out, transform 0.3s ease-in-out;
     outline: none;
-    z-index: 4;
 }
 
 .taehee-image.hover-active {
     width:88%;
     filter: brightness(100%);
-    z-index: 10;
 }
 
 .intro-name {
     font-family: 'Shilla';
-    z-index: 10;
 }
 
 /* 이미지 위에 올릴 텍스트 스타일 */
