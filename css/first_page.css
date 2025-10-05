@@ -26,25 +26,25 @@
     align-items: center; 
     height: auto;
     width: 100vw;
-    display: block;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 /* 이미지 스타일 */
 .taehee-image {
-    width: 90%;
+    width: 80%;
     height: auto; 
     filter:brightness(10%);
     transition : filter 0.3s ease-in-out, transform 0.3s ease-in-out;
     outline: none;
     z-index: 4;
-    -webkit-tap-highlite-color:transparent;
 }
 
 .taehee-image.hover-active {
     transform: scale(1.1);
     filter: brightness(100%);
     z-index: 10;
-    -webkit-tap-highlite-color:transparent;
 }
 
 .intro-name {
