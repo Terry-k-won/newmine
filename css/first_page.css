@@ -16,7 +16,6 @@
     position: relative;
     margin: 0;
     padding: 0;
-    width: 100%;
     background-color: #F5F5F0;
 }
 
@@ -28,8 +27,8 @@
     height: auto;
     width: 100%;
     top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    transform: translate(-50%, 0%);
+    z-index: 6;
 }
 
 /* 이미지 스타일 */
