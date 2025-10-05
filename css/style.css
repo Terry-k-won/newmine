@@ -1,5 +1,7 @@
 /* 부모 스크롤 스냅 컨테이너 */
 .scroll-container {
+    height:100vh;
+    width:100%
     overflow: auto;
     scroll-snap-type: y mandatory;
 }
