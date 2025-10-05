@@ -5,37 +5,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Taehee's Life</title>
     <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/font.css">
     <link rel="stylesheet" href="./css/first_page.css">
     <link rel="stylesheet" href="./css/second_page.css">
-    <link rel="stylesheet" href="./css/for_desktop.css">
 </head>
 <body>
     <div class="snap-container">
-        <section class="page first_page">
-            <div class="image-text">
-                <h2>
-                    <span class="highlight-text large-size">틀</span>이 있다면<br>
-                    <span class="highlight-text">딱</span>하고 깨버리는 <span class="highlight-text">남</span>자
-                </h2>
-            </div>
-            <div class="imagetext-container">
-                <span class="intro-name">틀딱남<br>권태희</span>
-                <img src="./images/taehee_picture_1.png" alt="태희님의 사진" class="taehee-image" id="toggleImage">
-            </div>
+        <section class="scroll-area first_page">
         </section>
-        <section class="page second_page">
-        
+        <section class="scroll-area second_page">
         </section>
     </div>
-
-    <script>
-        // 1. 이미지 요소(ID: toggleImage)를 가져옵니다.
-        const imageElement = document.getElementById('toggleImage');
-
-        // 2. 이미지를 클릭했을 때 실행될 함수를 정의합니다.
-        imageElement.addEventListener('click', function() {
-            imageElement.classList.toggle('hover-active');
-        });
-    </script>
 </body>
 </html>
