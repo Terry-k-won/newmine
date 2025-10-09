@@ -1,5 +1,8 @@
 .first-page {
     background-color: #FFECC0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .imagetext-container {
@@ -31,9 +34,4 @@ imagetext-container.active .text-element {
     opacity: 1;
     visibility: visible;
     transition: transform 0.5s ease 0.1s, visibility 0s 0s;
-}
-
-.textbox {
-    position: relative;
-    z-index: 2;
 }
