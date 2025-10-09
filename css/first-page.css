@@ -16,7 +16,7 @@
 }
 
 .image-element {
-    width: 30vw;
+    width: 200px;
     height: auto;
     transition: transform 0.5s ease, z-index 0s 0.5s;
 }
