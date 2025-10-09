@@ -13,19 +13,19 @@
     width: 80%;
     height: fit-content;
     cursor: pointer;
+    transition: width 0.5s ease;
 }
 
 .image-element {
     width: 100%;
     height: auto;
-    transition: transform 0.5s ease, z-index 0s 0.5s;
 }
 
 .text-element {
     opacity: 0;
     font-size: 1em;
     visibility: hidden;
-    transition: opacity 0.5s ease, visibility 0s 0.5s;
+    transition: opacity 0.5s ease, visibility 0.3s 0.5s;
 }
 
 
@@ -34,15 +34,10 @@
     width: 95%;
 }
 
-
-.imagetext-container.active .image-element {
-    transition: width 0.5s ease;
-}
-
 .imagetext-container.active .text-element {
     opacity: 1;
     visibility: visible;
-    transition: transform 0.5s ease 0.1s, visibility 0s 0s;
+    transition: opacity 0.5s ease, visibility 0.3s 0s;
 }
 
 /* for desktop view*/
