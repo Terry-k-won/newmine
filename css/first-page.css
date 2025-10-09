@@ -28,12 +28,12 @@
     transition: opacity 0.5s ease, visibility 0s 0.5s;
 }
 
-imagetext-container.active .image-element {
+.imagetext-container.active .image-element {
     transform: scale(1.2);
     transition: transform 0.5s ease, z-index 0s 0s;
 }
 
-imagetext-container.active .text-element {
+.imagetext-container.active .text-element {
     opacity: 1;
     visibility: visible;
     transition: transform 0.5s ease 0.1s, visibility 0s 0s;
