@@ -10,7 +10,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    width: 30%;
+    width: 80%;
     height: fit-content;
     cursor: pointer;
 }
@@ -29,7 +29,7 @@
 }
 
 .imagetext-container.active .image-element {
-    transform: scale(1.2);
+    width: 95%;
     transition: transform 0.5s ease, z-index 0s 0s;
 }
 
@@ -37,4 +37,17 @@
     opacity: 1;
     visibility: visible;
     transition: transform 0.5s ease 0.1s, visibility 0s 0s;
+}
+
+/* for desktop view*/
+
+@media (min-width: 769px) {
+    .imagetext-container {
+        width: 30%;
+    }
+
+    .imagetext-container.active .image-element {
+    width: 45%;
+    transition: transform 0.5s ease, z-index 0s 0s;
+}
 }
