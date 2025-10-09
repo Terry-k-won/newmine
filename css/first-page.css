@@ -29,13 +29,12 @@
 }
 
 
-.imagetext-container.active .imagetext-container {
+.imagetext-container.active{
     width: 95%;
 }
 
 
 .imagetext-container.active .image-element {
-    width: 100%;
     transition: transform 0.5s ease, z-index 0s 0s;
 }
 
@@ -52,7 +51,7 @@
         width: 40%;
     }
 
-    .imagetext-container.active .imagetext-container {
+    .imagetext-container.active{
     width: 50%;
     }
 }
