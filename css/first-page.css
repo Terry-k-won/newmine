@@ -28,8 +28,14 @@
     transition: opacity 0.5s ease, visibility 0s 0.5s;
 }
 
-.imagetext-container.active .image-element {
+
+.imagetext-container.active .imagetext-container {
     width: 95%;
+}
+
+
+.imagetext-container.active .image-element {
+    width: 100%;
     transition: transform 0.5s ease, z-index 0s 0s;
 }
 
@@ -43,11 +49,10 @@
 
 @media (min-width: 769px) {
     .imagetext-container {
-        width: 30%;
+        width: 40%;
     }
 
-    .imagetext-container.active .image-element {
-    width: 45%;
-    transition: transform 0.5s ease, z-index 0s 0s;
-}
+    .imagetext-container.active .imagetext-container {
+    width: 50%;
+    }
 }
