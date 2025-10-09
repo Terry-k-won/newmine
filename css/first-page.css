@@ -30,12 +30,13 @@
 
 
 .imagetext-container.active{
+    transition: width 0.5s ease 0.1s;
     width: 95%;
 }
 
 
 .imagetext-container.active .image-element {
-    transition: transform 0.5s ease, z-index 0s 0s;
+    transition: width 0.5s ease;
 }
 
 .imagetext-container.active .text-element {
@@ -48,10 +49,10 @@
 
 @media (min-width: 769px) {
     .imagetext-container {
-        width: 40%;
+        width: 30%;
     }
 
     .imagetext-container.active{
-    width: 50%;
+    width: 36%;
     }
 }
