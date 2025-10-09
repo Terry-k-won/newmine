@@ -23,6 +23,7 @@
 
 .text-element {
     opacity: 0;
+    font-family: 'Shilla', sans-serif;
     font-size: 1em;
     visibility: hidden;
     transition: opacity 0.5s ease, visibility 0.3s 0.5s;
@@ -44,10 +45,14 @@
 
 @media (min-width: 769px) {
     .imagetext-container {
-        width: 30%;
+        width: 23%;
     }
 
     .imagetext-container.active{
-    width: 36%;
+    width: 30%;
+    }
+
+    .text-element {
+        font-size: 3em;
     }
 }
