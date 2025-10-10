@@ -44,7 +44,7 @@
     width: 95%;
 }
 
-.imagetext-container.active .text-element1, .text-element2 {
+.imagetext-container.active .text-element1, .imagetext-container.active .text-element2 {
     opacity: 1;
     visibility: visible;
     transition: opacity 0.5s ease, visibility 0.3s 0s;
