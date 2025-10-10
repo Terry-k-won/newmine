@@ -60,7 +60,7 @@
     background-color: #B8CFCE;
     padding: 10px;
     border-radius: 5px;
-    transition: font-size 0.5s ease;
+    transition: blur 0.5s ease, font-size 0.5s ease;
 }
 
 .highlight{
@@ -86,9 +86,10 @@
     transition: opacity 0.5s ease, visibility 0.3s 0s;
 }
 
-.intro-ment.activeIntro{    
+.intro-ment.activeIntro{
+    filter: blur(5px);
     font-size: 18px;
-    transition: font-size 0.5s ease;
+    transition: blur 0.5s ease, font-size 0.5s ease;
 }
 
 .highlight.activeHighlight{    
