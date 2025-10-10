@@ -85,7 +85,6 @@
 }
 
 .intro-ment.activeIntro{    
-    filter: blur(20px);
     font-size: 18px;
     transition: filter 0.5s ease, font-size 0.5s ease;
 }
