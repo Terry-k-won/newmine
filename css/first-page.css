@@ -21,10 +21,19 @@
     height: auto;
 }
 
-.text-element {
+.text-element1 {
     opacity: 0;
     font-family: 'Shilla', sans-serif;
-    font-size: 1em;
+    font-size: 3em;
+    visibility: hidden;
+    color: #ED3F27;
+    transition: opacity 0.5s ease, visibility 0.3s 0.5s;
+}
+
+.text-element2 {
+    opacity: 0;
+    font-family: 'Shilla', sans-serif;
+    font-size: 4.5em;
     visibility: hidden;
     transition: opacity 0.5s ease, visibility 0.3s 0.5s;
 }
@@ -52,7 +61,11 @@
     width: 30%;
     }
 
-    .text-element {
-        font-size: 3em;
+    .text-element1 {
+    font-size: 3em;
+    }
+
+    .text-element2 {
+        font-size: 4.5em;
     }
 }
