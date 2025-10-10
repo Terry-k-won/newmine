@@ -60,12 +60,14 @@
     background-color: #B8CFCE;
     padding: 10px;
     border-radius: 5px;
+    transition: font-size 0.5s ease;
 }
 
 .highlight{
     color: #D97D54;
     font-weight: bold;
     font-size: 30px;
+    transition: font-size 0.5s ease;
     }
 
 .imagetext-container.active{
@@ -86,12 +88,12 @@
 
 .intro-ment.activeIntro{    
     font-size: 18px;
-    transition: filter 0.5s ease, font-size 0.5s ease;
+    transition: font-size 0.5s ease;
 }
 
 .highlight.activeHighlight{    
     font-size: 22px;
-    transition: filter 0.5s ease, font-size 0.5s ease;
+    transition: font-size 0.5s ease;
 }
 
 /* for desktop view*/
@@ -126,10 +128,10 @@
     }
 
     .intro-ment.activeIntro{    
-    font-size: 2.2vw;    
- }
+    font-size: 2.2vw;
+    }
 
     .highlight.activeHighlight{    
-    font-size: 2.4vx;
+    font-size: 2.2vw;
     }
 }
