@@ -100,9 +100,9 @@
     }
 
     .intro-ment{
-        font-size: 70px;
+        font-size: 5vw;
         font-weight:700;
-        padding: 20px;
-        border-radius: 40px;
+        padding: 10vw;
+        border-radius: 5vw;
     }
 }
