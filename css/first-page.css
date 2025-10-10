@@ -1,5 +1,5 @@
 .first-page {
-    background-color: #FFECC0;
+    background-color: #EAEFEF;
     position: relative;
 }
 
@@ -31,7 +31,7 @@
     font-family: 'Shilla', sans-serif;
     font-size: 3em;
     visibility: hidden;
-    color: #ED3F27;
+    color: #D84315;
     transition: opacity 0.5s ease, visibility 0.3s 0.5s;
 }
 
@@ -39,6 +39,7 @@
     opacity: 0;
     font-family: 'Shilla', sans-serif;
     font-size: 4em;
+    color: #212529;
     visibility: hidden;
     transition: opacity 0.5s ease, visibility 0.3s 0.5s;
 }
@@ -53,15 +54,16 @@
     font-size: 24px;
     font-family: "Aggravo" sans-serif;
     font-weight:500;
+    color: #212529;
     text-align: center;
     white-space: nowrap;
-    background-color: #80A1BA;
+    background-color: #B8CFCE;
     padding: 10px;
     border-radius: 5px;
 }
 
 .highlight{
-    color: #FFC43A;
+    color: #D97D54;
     font-weight: bold; 
     }
 
