@@ -19,7 +19,7 @@
 .image-element {
     width: 100%;
     height: auto;
-    filter: brightness(0.2);
+    filter: brightness(0.1);
     transition: filter 0.5s ease;
 }
 
