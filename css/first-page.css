@@ -45,7 +45,7 @@
 
 .intro-ment{
     position: absolute;
-    max-width: 85vw;
+    width: 80vw;
     z-index: 2;
     top: 50%;
     left: 50%;
