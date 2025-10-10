@@ -1,12 +1,14 @@
 .first-page {
     background-color: #FFECC0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    position: relative;
 }
 
 .imagetext-container {
+    position: absolute;
     z-index: 1;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -36,12 +38,17 @@
 .text-element2 {
     opacity: 0;
     font-family: 'Shilla', sans-serif;
-    font-size: 4.5em;
+    font-size: 2.5em;
     visibility: hidden;
     transition: opacity 0.5s ease, visibility 0.3s 0.5s;
 }
 
 .intro-ment{
+    position: absolute;
+    z-index: 2;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
     font-size: 3.5em;
     font-family: "Aggravo" sans-serif;
     font-weight:500;
@@ -53,6 +60,7 @@
     }
 
 .imagetext-container.active{
+    z-index:3;
     transition: width 0.5s ease 0.1s;
     width: 95%;
 }
@@ -87,7 +95,7 @@
     }
 
     .intro-ment{
-        font-size: 5em;
+        font-size: 4em;
         font-weight:700;
     }
 }
