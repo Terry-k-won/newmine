@@ -64,7 +64,8 @@
 
 .highlight{
     color: #D97D54;
-    font-weight: bold; 
+    font-weight: bold;
+    font-size: 30px;
     }
 
 .imagetext-container.active{
@@ -107,5 +108,9 @@
         font-weight:700;
         padding: 1vw;
         border-radius: 0.5vw;
+    }
+
+    .highlight{
+    font-size: 4vw;
     }
 }
