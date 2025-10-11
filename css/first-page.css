@@ -55,7 +55,6 @@
 }
 
 .intro-ment{
-    position: absolute;
     width: fit-content;
     font-size: 30px;
     font-family: "Aggravo" sans-serif;
@@ -70,6 +69,18 @@
     box-shadow: 0 2px 12px rgba(124, 167, 166, 0.15);
     transition: blur 0.5s ease, font-size 0.5s ease, box-shadow 0.5s;
 }
+
+.center-ment{
+    text-align: center;
+    }
+
+.left-ment{
+    text-align: left;
+    }
+
+.right-ment{
+    text-align: right;
+    }
 
 .touch-ment{
     margin-top: 3px;
