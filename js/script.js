@@ -9,8 +9,3 @@ document.querySelectorAll('.imagetext-container').forEach(container => {
     });
   });
 });
-
-@keyframes blink {
-  0%, 100% { opacity: 0; visibility: hidden; }
-  50% { opacity: 1; visibility: visible; }
-}
