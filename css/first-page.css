@@ -60,7 +60,7 @@
     background-color: #B8CFCE;
     padding: 10px;
     border-radius: 10px;
-    border: 2px solid #7CA7A6;
+    border: 6px groove #2D3A3B;
     box-shadow: 0 2px 12px rgba(124, 167, 166, 0.15);
     transition: blur 0.5s ease, font-size 0.5s ease, box-shadow 0.5s;
 }
@@ -123,8 +123,8 @@
         font-weight:700;
         transform: translate(-50%, -50%);
         padding: 1vw;
-        border-radius: 0.5vw;
-        border: 0.5vw solid #7CA7A6;
+        border-radius: 1vw;
+        border: 0.5vw groove #2D3A3B;
     }
 
     .highlight{
