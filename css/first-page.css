@@ -142,10 +142,13 @@
         font-size: 45px;
     }
 
+    .intro-textcontainer{
+        transform: translate(-50%, -50%);
+    }
+    
     .intro-ment{
         font-size: 3vw;
         font-weight:700;
-        transform: translate(-50%, -50%);
         padding: 1vw;
         border-radius: 1vw;
         border: 0.5vw groove #2D3A3B;
