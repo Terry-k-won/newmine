@@ -159,11 +159,11 @@
     }
 
     .text-element1 {
-        font-size: 30px;
+        font-size: 1vw;
     }
 
     .text-element2 {
-        font-size: 45px;
+        font-size: 0.7vw;
     }
 
     .intro-textcontainer{
@@ -196,10 +196,10 @@
     }
 
     .intro-ment.activeIntro{    
-    font-size: 2.2vw;
+        font-size: 2.2vw;
     }
 
     .highlight.activeHighlight{    
-    font-size: 2.2vw;
+        font-size: 2.2vw;
     }
 }
