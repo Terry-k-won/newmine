@@ -44,13 +44,17 @@
     transition: opacity 0.5s ease, visibility 0.3s 0.5s;
 }
 
-.intro-ment{
-    position: absolute;
-    width: fit-content;
-    z-index: 2;
+.intro-textcontainer{
+    position:absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -25%);
+    z-index: 2;
+}
+
+.intro-ment{
+    position: absolute;
+    width: fit-content;
     font-size: 30px;
     font-family: "Aggravo" sans-serif;
     font-weight:500;
@@ -64,6 +68,13 @@
     box-shadow: 0 2px 12px rgba(124, 167, 166, 0.15);
     transition: blur 0.5s ease, font-size 0.5s ease, box-shadow 0.5s;
 }
+
+.touch-ment{
+    margin-top: 3px;
+    font-size: 14px;
+    font: "GounBatang" sans-serif;
+    color: #44444E;
+    }
 
 .highlight{
     color: #D97D54;
@@ -126,6 +137,11 @@
         border-radius: 1vw;
         border: 0.5vw groove #2D3A3B;
     }
+
+    .touch-ment{
+        margin-top: 1vw;
+        font-size: 2vw;
+        }
 
     .highlight{
         font-size: 4vw;
