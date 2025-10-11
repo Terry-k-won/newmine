@@ -27,6 +27,7 @@
 }
 
 .scroll-image {
+    margin-top: 15px;
     width: 8%;
     height: auto;
     opacity: 0;
@@ -125,17 +126,14 @@
     transition: opacity 0.5s ease, visibility 0.3s 0s;
 }
 
+
 @keyframes blink {
-  0%, 100% { opacity: 0; visibility: hidden; }
-  50% { opacity: 1; visibility: visible; }
-};
+    0%, 100% { opacity: 0; visibility: hidden; }
+    50% { opacity: 1; visibility: visible; }
+}
 
 .imagetext-container.active .scroll-image {
-    opacity: 1;
-    visibility: visible;
-    transition: opacity 0.5s ease, visibility 0.3s 0s;
     animation: blink 1.2s infinite;
-    transition: opacity 0.5s ease, visibility 0.3s 0.5s;
 }
 
 .intro-ment.activeIntro{
