@@ -80,14 +80,17 @@
 
 .center-ment{
     text-align: center;
+    width: 100%;
     }
 
 .left-ment{
     text-align: left;
+    width: 100%;
     }
 
 .right-ment{
     text-align: right;
+    width: 100%;
     }
 
 .touch-ment {
