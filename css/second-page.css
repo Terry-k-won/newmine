@@ -32,9 +32,9 @@ img {
 }
 
 .caption {
-  font-size: 1.125rem;
+  font-size: 0.9rem;
   text-align: center;
-  line-height: 2em;
+  line-height: 1em;
 }
 
 .item {
@@ -121,6 +121,12 @@ img {
 @media (min-width: 769px) {
   .wrapper {
     width: 20%;
+  }
+
+  .caption {
+    font-size: 1.125rem;
+    text-align: center;
+    line-height: 2em;
   }
 
   .second-page {
