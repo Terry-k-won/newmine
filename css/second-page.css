@@ -159,11 +159,6 @@ img {
 
 
 @media (min-width: 769px) {
-  img {
-    max-width: 30%;
-    height: auto;
-  }
-
   .wrapper {
     height: 60%;
     width: 100%;
