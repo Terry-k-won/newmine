@@ -110,9 +110,6 @@ img {
     flex-direction: row;
   }
 
-  .polaroid {
-  margin: 0 2rem;
-  }
   .caption {
     font-size: 1.125rem;
     text-align: center;
