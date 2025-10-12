@@ -22,7 +22,7 @@
 
 /* background 요소 */
 .second-page-bg {
-  position: relative;
+  position: absolute;
   z-index:1;
   background: radial-gradient(#272727, #1b1b1b);
   display: grid;
