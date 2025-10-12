@@ -109,7 +109,7 @@ img {
   transform: scale(0.8, 0.8) rotate(5deg);
   transition: all 0.35s;
   margin-bottom: 2rem;
-  margin-right: 2rem;
+  margin-right: 0rem;
 }
 
 .item:nth-of-type(1) .polaroid:before {
@@ -125,7 +125,7 @@ img {
   transform: scale(0.8, 0.8) rotate(-5deg);
   transition: all 0.35s;
   margin-top: 2rem;
-  margin-left: 2rem;
+  margin-left: 0rem;
 }
 
 
@@ -168,5 +168,19 @@ img {
     font-size: 1.125rem;
     text-align: center;
     line-height: 2em;
+  }
+
+  .item:nth-of-type(1) {
+  transform: scale(0.8, 0.8) rotate(5deg);
+  transition: all 0.35s;
+  margin-bottom: 0rem;
+  margin-right: 2rem;
+  }
+
+  .item:nth-of-type(2) {
+  transform: scale(0.8, 0.8) rotate(-5deg);
+  transition: all 0.35s;
+  margin-top: 0rem;
+  margin-left: 2rem;
   }
 }
