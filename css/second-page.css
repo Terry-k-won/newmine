@@ -59,7 +59,7 @@ div.fg{
 
 /* 폴라로이드 요소 */
 
-img {
+.second-page img {
   max-width: 90%;
   height: auto;
 }
