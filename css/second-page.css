@@ -11,6 +11,7 @@
     background-size: 20px 20px;
     display: flex;
     justify-content: center;
+    align-items: center;
 }
 
 img {
@@ -124,6 +125,7 @@ img {
 
   .second-page {
     display: block;
+    align-items: unset;
     justify-content: unset;
   }
 }
