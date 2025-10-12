@@ -9,6 +9,8 @@
         #456882 20%
     );
     background-size: 20px 20px;
+    display: flex;
+    align-items: center;
 }
 
 img {
@@ -112,4 +114,16 @@ img {
   right: 5%;
   box-shadow: 0 1rem 3rem rgba(0,0,0,0.2);
   transition: all 0.35s;
+}
+
+
+@media (min-width: 769px) {
+  .wrapper {
+    width: 20%;
+  }
+  
+  .second-page {
+    display: block;
+    align-items: unset;
+  }
 }
