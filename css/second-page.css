@@ -8,7 +8,7 @@
         #456882 10%,
         #456882 20%
     );
-    background-size: 20px 20px;
+    background-size: 10px 10px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -108,9 +108,11 @@ img {
   .wrapper {
     width: 40%;
     flex-direction: row;
-    padding: 0 10rem;
   }
 
+  .polaroid {
+  margin: 0 2rem;
+  }
   .caption {
     font-size: 1.125rem;
     text-align: center;
