@@ -159,6 +159,11 @@ img {
 
 
 @media (min-width: 769px) {
+  img {
+    max-width: 30%;
+    height: auto;
+  }
+
   .wrapper {
     height: 60%;
     width: 100%;
@@ -171,19 +176,19 @@ img {
     line-height: 2em;
   }
 
-  .item:nth-of-type(1) {
-  transform: scale(0.8, 0.8) rotate(5deg);
-  transition: all 0.35s;
-  margin-bottom: 0rem;
-  margin-right: 2rem;
-  }
+    .item:nth-of-type(1) {
+    transform: scale(0.8, 0.8) rotate(5deg);
+    transition: all 0.35s;
+    margin-bottom: 0rem;
+    margin-right: 2rem;
+    }
 
-  .item:nth-of-type(2) {
-  transform: scale(0.8, 0.8) rotate(-5deg);
-  transition: all 0.35s;
-  margin-top: 0rem;
-  margin-left: 2rem;
-  }
+    .item:nth-of-type(2) {
+    transform: scale(0.8, 0.8) rotate(-5deg);
+    transition: all 0.35s;
+    margin-top: 0rem;
+    margin-left: 2rem;
+    }
   
   .item {
     width: 35%;
