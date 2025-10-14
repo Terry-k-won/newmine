@@ -9,3 +9,16 @@ document.querySelectorAll('.imagetext-container').forEach(container => {
     });
   });
 });
+
+const buttons = [...document.querySelectorAll(".third-page button")];
+buttons.forEach(button => {
+  button.addEventListener("click", function() {
+    button.classList.toggle("following");
+    button.textContent = button.classList.contains("following") ? "Unfollow" : "Follow";
+  })
+});
+
+// for demo only
+setTimeout(function() {
+  document.querySelector(".third-page button").focus();
+}, 500);
