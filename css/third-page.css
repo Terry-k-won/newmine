@@ -28,7 +28,7 @@
   height: auto; */
   overflow: clip;
   position: relative;
-  font-family: Lato, Montserrat, Helvetica, Arial, sans-serif;
+  font-family: AliceDigitalLearning, sans-serif;
 
   &.dark {
     --bg: #222;
