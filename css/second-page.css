@@ -175,14 +175,14 @@ div.fg{
     transform: scale(0.8, 0.8) rotate(5deg);
     transition: all 0.35s;
     margin-bottom: 0rem;
-    margin-right: 2rem;
+    margin-right: calc(2rem + 20vw);
     }
 
     .item:nth-of-type(2) {
     transform: scale(0.8, 0.8) rotate(-5deg);
     transition: all 0.35s;
     margin-top: 0rem;
-    margin-left: 2rem;
+    margin-left: calc(2rem + 20vw);
     }
   
   .item {
