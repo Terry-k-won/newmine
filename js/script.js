@@ -17,8 +17,3 @@ buttons.forEach(button => {
     button.textContent = button.classList.contains("following") ? "Unfollow" : "Follow";
   })
 });
-
-// for demo only
-setTimeout(function() {
-  document.querySelector(".third-page button").focus();
-}, 500);
