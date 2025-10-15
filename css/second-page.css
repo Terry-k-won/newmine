@@ -186,7 +186,7 @@ div.fg{
     }
   
   .item {
-    width: 30%;
+    width: 20%;
     height: 100%;
     display: inline-block;
     filter: grayscale(100%);
