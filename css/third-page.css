@@ -99,58 +99,6 @@
       translate: 0 100%;
       opacity: 0;
       transition: translate 0.25s 0.2s, opacity 1s;
-
-      .tag {
-        align-self: center;
-        color: var(--title-color-hover);
-      }
-
-      button {
-        border: 1px solid #0000;
-        border-radius: 1.25rem 1.25rem 1.5rem 1.25rem;
-        font-size: 1rem;
-        padding: 1rem 1.5rem 1rem 2.75rem;
-        translate: 1rem;
-        background: var(--button-color);
-        transition: background 0.33s;
-        outline-offset: 2px;
-        position: relative;
-        color: var(--title-color-hover);
-        /* specific to demo */
-        width: 8.2rem;
-        text-align: right;
-
-        &::before,
-        &::after {
-          content: "";
-          width: 0.85rem;
-          height: 0.1rem;
-          background: currentcolor;
-          position: absolute;
-          top: 50%;
-          left: 1.33rem;
-          border-radius: 1rem;
-        }
-
-        &::after {
-          rotate: 90deg;
-          transition: rotate 0.15s;
-        }
-
-        &.following {
-          &::after {
-            rotate: 0deg;
-          }
-        }
-
-        &:hover {
-          background: var(--button-color-hover);
-        }
-
-        &:focus {
-          outline: 2px solid var(--text-color);
-        }
-      }
     }
   }
 
@@ -162,7 +110,7 @@
 
     > img {
       aspect-ratio: 1 / 1;
-      object-position: 50% 10%;
+      object-position: 50% 5%;
       transition: aspect-ratio 0.25s, object-position 0.25s;
     }
 
